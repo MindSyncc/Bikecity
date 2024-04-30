@@ -27,4 +27,4 @@ window.addEventListener('load', function(){
 function msgAlerta() {
     alert("Seja bem-vindo!");
 }
-setTimeout('msgAlerta', 1000)
+setTimeout(msgAlerta, 1000);

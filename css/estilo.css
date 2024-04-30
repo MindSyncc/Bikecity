@@ -9,4 +9,37 @@
   width: 90%;
   height: 450px;
 }
-  
+
+body{
+  background: linear-gradient(to right, blue, violet);
+}
+
+body div form input{
+  width: 150px;
+}
+
+body div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 13%;
+  text-transform: uppercase;
+}
+
+
+body div form{
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#enviar{
+  background: linear-gradient(to right, purple, coral);
+ 
+}
+#enviar:hover{
+  height: 20px;
+  cursor: pointer;
+  background: linear-gradient(to right, purple, rgb(156, 67, 35));
+}
