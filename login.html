@@ -8,10 +8,15 @@
 
 </head>
 <body>
-<form action="quiz.html">
-    <input id="usuario" type="text" placeholder="Digite seu usuario: "/>
-    <input id="senha" type="text" placeholder="Digite sua senha: "/>
-    <input id="enviar" type="submit" value="Enviar"/>
+<form>
+    <input id="usuario" type="text" placeholder="Digite seu usuario: " required/>
+    <input id="senha" type="password" placeholder="Digite sua senha: " required/>
+    <input id="enviar" type="submit" onclick="logar(); return false"/>
 </form>
+
+
+
+
+<script src="./login.js"></script>
 </body>
 </html>
