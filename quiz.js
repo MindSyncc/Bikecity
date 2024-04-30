@@ -13,73 +13,73 @@ let msg = document.getElementById("msg");
 let resultMsg = "";
 
 if (p1 == "selim") {
-    resultMsg += "VOCÊ ACERTOU A PRIMEIRA QUESTÃO";
+    resultMsg += "<br>" + "VOCÊ ACERTOU A PRIMEIRA QUESTÃO";
     cont++;
 } else {
-    resultMsg += "ERROU A PRIMEIRA QUESTÃO";
+    resultMsg += "<br>" + "ERROU A PRIMEIRA QUESTÃO";
 }
 
 if (p2 == "rodas") {
-    resultMsg += "VOCÊ ACERTOU A SEGUNDA QUESTÃO";
+    resultMsg += "<br>" + "VOCÊ ACERTOU A SEGUNDA QUESTÃO";
     cont++;
 } else {
-    resultMsg += "ERROU A SEGUNDA QUESTÃO";
+    resultMsg += "<br>" + "ERROU A SEGUNDA QUESTÃO";
 }
 
 if (p3 == "cambio") {
-    resultMsg += "VOCÊ ACERTOU A TERCEIRA QUESTÃO";
+    resultMsg += "<br>" + "VOCÊ ACERTOU A TERCEIRA QUESTÃO";
     cont++;
 } else {
-    resultMsg += "ERROU A TERCEIRA QUESTÃO";
+    resultMsg += "<br>" + "ERROU A TERCEIRA QUESTÃO";
 }
 
 if (p4 == "guidao") {
-    resultMsg += "VOCÊ ACERTOU A QUARTA QUESTÃO";
+    resultMsg += "<br>" + "VOCÊ ACERTOU A QUARTA QUESTÃO";
     cont++;
 } else {
-    resultMsg += "ERROU A QUARTA QUESTÃO";
+    resultMsg += "<br>" + "ERROU A QUARTA QUESTÃO";
 }
 
 if (p5 == "mountain bike") {
-    resultMsg += "VOCÊ ACERTOU A QUINTA QUESTÃO";
+    resultMsg += "<br>" + "VOCÊ ACERTOU A QUINTA QUESTÃO";
     cont++;
 } else {
-    resultMsg += "ERROU A QUINTA QUESTÃO";
+    resultMsg += "<br>" + "ERROU A QUINTA QUESTÃO";
 }
 
 if (p6 == "bicycle motocross") {
-    resultMsg += "VOCÊ ACERTOU A SEXTA QUESTÃO";
+    resultMsg += "<br>" + "VOCÊ ACERTOU A SEXTA QUESTÃO";
     cont++;
 } else {
-    resultMsg += "ERROU A SEXTA QUESTÃO";
+    resultMsg += "<br>" + "ERROU A SEXTA QUESTÃO";
 }
 
 if (p7 == "pedal") {
-    resultMsg += "VOCÊ ACERTOU A SÉTIMA QUESTÃO";
+    resultMsg += "<br>" + "VOCÊ ACERTOU A SÉTIMA QUESTÃO";
     cont++;
 } else {
-    resultMsg += "ERROU A SÉTIMA QUESTÃO";
+    resultMsg += "<br>" + "ERROU A SÉTIMA QUESTÃO";
 }
 
 if (p8 == "garfo") {
-    resultMsg += "VOCÊ ACERTOU A OITAVA QUESTÃO";
+    resultMsg += "<br>" + "VOCÊ ACERTOU A OITAVA QUESTÃO";
     cont++;
 } else {
-    resultMsg += "ERROU A OITAVA QUESTÃO";
+    resultMsg += "<br>" + "ERROU A OITAVA QUESTÃO";
 }
 
 if (p9 == "tensionador de corrente" || p9 == "derailleur traseiro") {
-    resultMsg += "VOCÊ ACERTOU A NONA QUESTÃO";
+    resultMsg += "<br>" + "VOCÊ ACERTOU A NONA QUESTÃO";
     cont++;
 } else {
-    resultMsg += "ERROU A NONA QUESTÃO";
+    resultMsg += "<br>" + "ERROU A NONA QUESTÃO";
 }
 
 if (p10 == "primavera") {
-    resultMsg += "VOCÊ ACERTOU A DÉCIMA QUESTÃO";
+    resultMsg += "<br>" + "VOCÊ ACERTOU A DÉCIMA QUESTÃO";
     cont++;
 } else {
-    resultMsg += "ERROU A DÉCIMA QUESTÃO";
+    resultMsg += "<br>" + "ERROU A DÉCIMA QUESTÃO";
 }
 
 msg.innerHTML = `VOCÊ ACERTOU ${cont} QUESTÕES:${resultMsg}`;
