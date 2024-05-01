@@ -7,6 +7,7 @@ body div {
   flex-direction: column;
   align-items: center;
   margin-top: 13%;
+  text-transform: uppercase;
 }
 
 body div form {
@@ -36,3 +37,4 @@ li:hover {
   cursor: pointer;
   background: linear-gradient(to right, purple, rgb(155, 49, 80));
 }
+
