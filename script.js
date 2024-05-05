@@ -1,4 +1,4 @@
-let imagens = ['img/Bicicleta1.jpg', 'img/Bicicleta2.jpg', 'img/Bicicleta3.jpg', 'img/Bicicleta4.jpg'];
+let imagens = ['img/Bicicleta_inverno.jpg', 'img/Bicicleta_outono.jpg', 'img/Bicicleta_primavera.jpg', 'img/Bicicleta_verao.jpg'];
 let index = 0;
 let time = 3000;
 
